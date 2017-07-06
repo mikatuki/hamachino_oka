@@ -1,0 +1,70 @@
+/* Style for spotlight/featured band timeline (spotlight.html) */
+body{
+  background-color: #FEDFE1;
+}
+
+ul.band-members
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+ul.band-members li
+{
+    /*border: 1px solid #CC543A;　/*囲み枠の色*/
+    color: #fff; /*文豪たちの文字色*/
+    margin-bottom: 5px;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 10px; /*角の丸み*/
+}
+
+ul.band-members li#ango
+{
+    background: #0089A7;
+    /*border: 1px solid #0089A7;　/*囲み枠の色*/
+    width: 100%;
+    left: 0%;
+}
+
+ul.band-members li#dazai
+{
+    background: #F75C2F;
+    /*border: 1px solid #F75C2F;　/*囲み枠の色*/
+    width: 80.025%;
+    left: 5.82%;
+}
+
+ul.band-members li#oda
+{
+    background: #D0104C;
+    /*border: 1px solid #D0104C;　/*囲み枠の色*/
+    width: 69.48%;
+    left: 14.065%;
+}
+
+ul.years
+{
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+/* width = 100% / 50 years = 5.88% (and subtract 0.12% to allow space for borders) */
+ul.years li
+{
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    float: left;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    width: 1.94%;
+}
+
+ul.years li.start
+{
+    border-left: 1px solid #000000;
+}
