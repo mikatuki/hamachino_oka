@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>縦書き確認</title>
+
+    <style media="screen">
+      div{
+        /*writeing-mode で　縦書きとか指定
+          vertical-rl は右から左の文　lr にすれば　左から右
+          -webkit- とかはブラウザ対応用の魔法*/
+        -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: tb-rl;
+                writing-mode: vertical-rl;
+      }
+
+      .box2 {
+      /*padding: 0.5em 1em;
+      margin: 5em 0;*/
+      padding-bottom: 50%;
+      font-weight: bold;
+      color: #6091d3;/*文字色*/
+      background: #FFF;
+      border: solid 3px #6091d3;/*線*/
+      border-radius: 10px;/*角の丸み*/
+  }
+  .box2 p {
+      margin: 0;
+      padding: 0;
+  }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="box2">縦書き確認　テスト なんかもじ</div>
+  </body>
+</html>
