@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="jquery.xdomainajax.js"> </script>
+    <script src="HoH_util.js"></script>
+    <meta charset="utf-8">
+    <title>関数テスト</title>
+  </head>
+  <body>
+    <p>作品のurl:<input type="text" id="AozoraURL" value=""></p>
+    <button type="button" onclick="main('getAozoraURL')">getAozoraURL</button>
+
+    <button onclick="main('getAozoraString');">getAozoraString</button>
+    <button onclick="main('seachSentence');">seachSentence</button>
+
+    <button onclick="main('getNamedEntity');">getNamedEntity</button>
+
+    <button onclick="main('getGeocoderXML');">getGeocoderXML</button>
+    <button onclick="main('xml2locationInfo');">xml2locationInfo</button>
+
+    <button onclick="main('googleAutoComplete');">googleAutoComplete</button>
+    <button onclick="main('googlePlaceDetail');">googlePlaceDetail</button>
+    <div id="placePhoto"></div>
+
+    <button onclick="main('all');">all</button>
+
+  </body>
+</html>
