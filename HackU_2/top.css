@@ -1,0 +1,98 @@
+body{
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  /*画像の配置がうまくいかない*/
+  background: url(image/pc_backimage.jpg) top center / cover no-repeat fixed;
+  text-align: center;
+}
+
+/*.seach{
+  position: relative;
+  top: 370px;
+  left: 150px;
+}*/
+/*.see{
+  position: relative;
+  top: 170px;
+  left: 600px;
+}*/
+
+/*#url_logo{
+  margin: 10% 0 0;
+}
+
+#urll{
+  width:75%;
+  height: 25px;
+  border:0;
+  padding:10px;
+  font-size:1.3em;
+  color:#890016;
+  border:solid 1px #000;
+  margin:0 0 20px;
+
+}
+#btn{
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+
+  color: #890016;
+}*/
+
+
+@media only screen and (max-device-width: 480px) {
+	/* スマホ用のCSS */
+  body{
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+
+    background-image: url(image/back_image3.jpg);
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: no-repeat;
+    /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+    background-attachment: fixed;
+    /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+    background-size: cover;
+    /* 背景画像が読み込まれる前に表示される背景のカラー */
+    background-color: #464646;
+  }
+
+  /*topページ*/
+  .seach{
+    position: relative;
+    top: 120px;
+    left: 50px;
+  }
+  .see{
+    position: relative;
+    top: 80px;
+    left: 230px;
+  }
+
+  /*urlのページ*/
+  .url{
+    text-align: center;
+    margin-top: 300px;
+  }
+  #url_logo{
+    width:100%;
+  }
+  #urll{
+    width:75%;
+    height: 25px;
+    border:0;
+    padding:10px;
+    font-size:1.3em;
+    color:#890016;
+    border:solid 1px #000;
+    margin:0 0 20px;
+
+  }
+  #btn{
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+
+    color: #890016;
+  }
+
+}
